@@ -10,6 +10,41 @@ h3 {
 img {
     width: 500px;
 }
+a {
+    display: block;
+}
+#pendidikan ol {
+    width: 30rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+#pendidikan li {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#hobi ul {
+    display: flexbox;
+    list-style: none;
+}
+#hobi li {
+    margin: 1rem 1rem;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 48rem) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 /* 
 CSS Syntax 
