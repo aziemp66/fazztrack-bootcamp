@@ -13,9 +13,14 @@ kemudian function harus dipanggil kembali untuk di eksekusi, dengan syntax sebag
 namaFunction(parameterFunction)
 */
 
-function salam(nama){
-  return console.log("Halo " + nama + ", Selamat pagi")
+function salam(nama) {
+    return console.log("Halo " + nama + ", Selamat pagi");
 }
 
 salam("Azie");
 
+function tambah(bilanganPertama, bilanganKedua) {
+    return console.log(bilanganPertama + bilanganKedua);
+}
+
+tambah(1, 3);
