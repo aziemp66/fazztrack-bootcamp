@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+}
+.col {
+    background-color: green;
+    color: white;
+    margin: 5px;
+}

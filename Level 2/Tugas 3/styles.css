@@ -1,6 +1,6 @@
 @font-face {
     font-family: SF Pro Display;
-    src: url(/Soal-1/font/SFPRODISPLAYREGULAR.OTF);
+    src: url(/font/SFPRODISPLAYREGULAR.OTF);
 }
 
 * {
@@ -13,7 +13,7 @@ body {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(42, 38, 61, 0.82), rgba(42, 38, 61, 0.5)),
-        url(/Soal-1/images/ImageBackground.jpg) no-repeat center/cover;
+        url(/images/ImageBackground.jpg) no-repeat center/cover;
 }
 
 #container {
@@ -26,6 +26,7 @@ h1 {
     margin: 2rem auto;
     font-family: "Pacifico", cursive;
     font-size: 3rem;
+    line-height: 5rem;
     width: 21rem;
     color: white;
 }
