@@ -10,3 +10,30 @@ h3 {
 img {
     width: 500px;
 }
+
+/* 
+CSS Syntax 
+CSS Syntax umumnya terbagi menjadi :
+1.Selector = selector berfungsi sebagai penunjuk ke bagian html yg ingin diberi style, contoh : body, h1, p, a, div
+2.Declaration = value yang akan dirubah pada elemen html yg ditunjuk selector
+
+CSS Specificity
+Jika ada dua atau lebih aturan CSS yang saling bertentangan yang mengarah 
+ke elemen yang sama, browser mengikuti beberapa aturan untuk menentukan 
+mana yang paling spesifik dan karenanya menang.
+
+
+Responsive Website
+Responsive website adalah kemampuan website untuk tampil 
+baik di device yang berbeda-beda
+
+CSS Media Queries
+Media Queries adalah teknik di css yang menggunakan syntax @media untuk melaksanakan
+perintah tertentu apabila suatu keadaan terpenuhi
+
+CSS Flexbox & Grid
+berfungsi untuk mengatur tampilan sebuah halaman web menjadi 
+lebih terstruktur dan rapi. Perbedaannya hanya terletak pada arah pembagian dimensinya saja. 
+Flexbox hanya dapat mengatur arah pembagian dimensi tampilan hanya 
+secara horizontal saja atau secara vertikal saja.
+ */
