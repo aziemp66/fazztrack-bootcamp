@@ -1,0 +1,80 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url(/Soal-1/font/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(42, 38, 61, 0.82), rgba(42, 38, 61, 0.5)),
+        url(/Soal-1/images/ImageBackground.jpg) no-repeat center/cover;
+}
+
+#container {
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 2rem auto;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    width: 21rem;
+    color: white;
+}
+h1 span {
+    color: rgb(253, 179, 114);
+}
+p {
+    font-family: "SF Pro Display";
+    font-size: 1rem;
+    color: white;
+}
+#button-group {
+    margin-top: 5rem;
+}
+.btn {
+    border-radius: 6px;
+    font-family: "Pacifico", cursive;
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding: 1rem 5rem;
+}
+.btn-warning {
+    color: white;
+    background-color: rgb(253, 179, 114);
+    border: 1px solid rgb(253, 179, 114);
+}
+.btn-outline-warning {
+    border: 3px solid rgb(253, 179, 114);
+    color: rgb(253, 179, 114);
+}
+.btn-warning:hover {
+    color: white;
+    background-color: rgb(253, 179, 114);
+    border: 1px solid rgb(253, 179, 114);
+    box-shadow: none;
+}
+.btn-outline-warning:hover {
+    background-color: transparent;
+    border: 3px solid rgb(253, 179, 114);
+    color: rgb(253, 179, 114);
+}
+.btn-warning:focus {
+    color: white;
+    background-color: rgb(253, 179, 114);
+    border: 1px solid rgb(253, 179, 114);
+    box-shadow: none;
+}
+.btn-outline-warning:focus {
+    border: 3px solid rgb(253, 179, 114);
+    color: rgb(253, 179, 114);
+    box-shadow: none;
+}
